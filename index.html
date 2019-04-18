@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title> Form</title> 
+     <link rel="stylesheet" href="styles.css">    
+</head>
+<body>
+    <h1 id="title">Customer Satisfaction Survey</h1>
+
+<p id= "description">
+   
+You are very important to us. Please help us serve you better by taking a few minutes to tell us about the service you received today.      </p>
+<div id="form-outer">
+
+<form id="survey-form" >
+        <fieldset>
+            <legend>Personal Info</legend> 
+            <div id="personal-info">
+                <div id="rowTab">
+                <div class="rowTab">   
+                    <label id="name-label">Full Name</label>
+                    <input id = "name" class="right-input" type="text" required placeholder="Name">  </input>
+                 </div> 
+
+
+        <div class="rowTab">
+                <label id="email-label" class="email">E-mail</label>
+                <input id = "email" class="right-input" type="email"  required placeholder="E-mail"></input>
+        </div>
+    
+        <div class ="rowTab">
+             <label id="number-label" class="number">Phone Number</label>
+             <input id="number"  class="right-input" type="number" min="1" max="99999999999" width="500px" placeholder="Number"> </input>
+        </div>
+    </div>
+        <br>
+        <div id="age">
+        <p> I am above 18  </p>
+        <select  id="dropdown">
+            <option> Yes</option>
+            <option> No</option>
+        </select>
+        </div>
+        
+        <div id="gender-container">
+            <p id="gender"> Gender: </p>  
+        <input class="gender-items" type="radio" name="gender" value="male">Male</input>
+        <br>
+        <input class="gender-items" type="radio" name="gender" value="female">Female</input>
+        <br>
+        <input class="gender-items" type="radio" name="gender" value="other">Other</input>
+
+        </div>
+        
+        
+       </div>
+       
+        </fieldset>
+        <br>
+        <fieldset id="carInfoBox">
+            <legend>Car Information</legend>
+            <div id="carInfo">
+             <p >Make: </p>
+            <select  id="carType">   
+                <option> BMW</option>
+                <option> VW</option>
+                <option> Nissan</option>
+                <option> Cadillac</option>
+                <option> Porsche</option>
+            </select>
+          
+            <p >Year: </p>
+            <select  id="carYear">
+                <option> 1960s</option>
+                <option> 1970s</option>
+                <option> 1980s</option>
+                <option> 1990s</option>
+                <option> 2000s</option>
+                <option> 2010s</option>
+            </select>
+        </div>
+        </fieldset>
+        <br>
+        <fieldset id="services">
+            <legend>Services</legend>
+            <p>What services have you received?</p>
+        <input type="checkbox" value="carwash">Carwash</input>
+        <input type="checkbox" value="tune up">Tune up</input>
+        <input type="checkbox" value="polish">Body Polish</input>
+        <input type="checkbox" value="vaccum">Interrior Vaccum cleaning</input>
+      
+
+
+        </fieldset>
+        <br>
+        <p>May you please tell us about your merits and demerits of the services you received ?</p>
+        <textarea maxlength="250">
+
+        </textarea>
+
+        <br>
+    
+        <input type="submit" id="submit" value="Submit">
+
+
+    </form>
+</div>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>

@@ -1,0 +1,101 @@
+#title{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+}
+#description{
+    width: 60%;
+    margin : 2% auto;
+    text-align: justify;
+
+}
+
+.rowTab {
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+#rowTab {
+    position: relative;
+    align-content: left;
+}
+#personal-info {
+    width: 60%;
+    }
+#form-outer{
+  
+    background: rgb(69, 94, 69);
+    margin: 2% auto;
+    width: 60%;
+    padding: 3% 5% 3% 5%;
+}
+#number{
+    text-align: left;
+}
+.right-input {
+    width: 40%;
+}
+
+#survey-form{
+    margin: 0 auto;
+}
+legend {
+    font-weight: bold;
+    color: aliceblue;
+}
+#age {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: fit-content ;
+}
+#dropdown{
+    position: relative;
+    height: fit-content;
+    align-self: center;
+    margin: 0 0 0 5px;
+}
+p{
+    position: relative;
+    height: fit-content;
+}
+#gender-container{
+    display: flex;
+    position: relative;
+    align-self: center;
+    align-items: center;
+    }
+
+#carInfo{
+
+   display: flex;
+    position: relative;
+    align-items: center;
+}
+#carType{
+    height:fit-content;
+    margin: 5px;    
+}
+#carYear{
+    height:fit-content;
+    margin: 5px;
+
+}
+textarea {
+
+    position: relative;
+    width:100%;
+    min-height: 70px;
+    max-height: fit-content;
+}
+
+#submit {
+    position: relative;
+display: flex;
+margin: 5% auto 0 auto;    
+
+}
